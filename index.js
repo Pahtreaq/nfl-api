@@ -7,10 +7,10 @@ app.get('/teams', (request, response) => {
     response.send(teams)
 })
 
-app.get('/teams/:x', (request, response) => {
-    const x = request.params.x
+app.get('/teams/:identifier', (request, response) => {
+    const identifier = request.params.identifier
     const matchingTeams = teams.filter((team) => {
-        return team.id === Number(x)
+        return team.id === Number(identifier) || team.abbriviation === identifier.toUpperCase()
     })
     response.send(matchingTeams)
 })
