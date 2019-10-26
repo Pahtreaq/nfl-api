@@ -14,6 +14,7 @@ app.get('/teams/:x', (request, response) => {
     })
     response.send(matchingTeams)
 })
+
 if (matchingTeams.length) {
     response.send(matchingTeams)
 } else {

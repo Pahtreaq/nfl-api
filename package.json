@@ -4,26 +4,18 @@
   "description": "## Instructions",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
     "dev": "./node_modules/.bin/nodemon index js",
-=======
->>>>>>> 55fc1b26acd08d3870c543c0a3a90a1fdde89c1e
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Pahtreaq/nfl-api.git"
   },
-<<<<<<< HEAD
   "author": "",
-=======
-  "author": "Patrick Muwanguzi",
->>>>>>> 55fc1b26acd08d3870c543c0a3a90a1fdde89c1e
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Pahtreaq/nfl-api/issues"
   },
-<<<<<<< HEAD
   "homepage": "https://github.com/Pahtreaq/nfl-api#readme",
   "dependencies": {
     "express": "^4.17.1"
@@ -33,7 +25,4 @@
     "nodemon": "^1.19.4",
     "save": "^2.4.0"
   }
-=======
-  "homepage": "https://github.com/Pahtreaq/nfl-api#readme"
->>>>>>> 55fc1b26acd08d3870c543c0a3a90a1fdde89c1e
 }
